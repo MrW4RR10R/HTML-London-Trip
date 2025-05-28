@@ -3,9 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>London Trip</title>
 </head>
 <body>
+    
     <!--intestazione della pagina-->
     <header>
         <h1>Il mio Viaggio a Londra</h1>
@@ -14,47 +15,58 @@
         <img src="./Img/pexels-bill-emrich-230794-2.jpg" alt="backingham palace di notte sul tamigi">
         <hr>
     </header>
+    <!--/fine dell'intestazione-->
 
     <!--corpo della pagina con tabella-->
     <main>
-        <h2><strong>Le mie spese</strong></h2>
-        
-        <!--tabella costi-->
-        <table>
-            <!--Intestazione Tabella-->
-            <thead>
-                <tr>
-                    <th>Numero</th>
-                    <th>Descrizione</th>
-                    <th>Costo</th>
-                </tr>
-            </thead> 
-            <!--Corpo della tabella-->   
-            <tbody>
-                <tr>
-                    <td>1</td>
-                    <td>Biglietto Aereo</td>
-                    <td>120&#8364;</td>
-                </tr>
-                <tr>
-                    <td>1</td>
-                    <td>Biglietto Aerea</td>
-                    <td>120&#8364;</td>
-                </tr>
-                <tr>
-                    <td>1</td>
-                    <td>Biglietto Aereo</td>
-                    <td>120&#8364;</td>
-                </tr>
-                <tr>
-                    <td>Totale</td>
-                    <td></td>
-                    <td>360&#8364;</td>
-                </tr>
-            </tbody> 
-        </table>
-        <hr>
-        
+
+        <!--inizio sezione: Le mie spese-->
+        <section>
+            <h2><strong>Le mie spese</strong></h2>
+            
+            <!--tabella costi-->
+            <table>
+                <!--Intestazione Tabella-->
+                <thead>
+                    <tr>
+                        <th>Numero</th>
+                        <th>Descrizione</th>
+                        <th>Costo</th>
+                    </tr>
+                </thead> 
+                
+                <!--Corpo della tabella-->   
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Biglietto Aereo</td>
+                        <td>120&#8364;</td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>Biglietto Aerea</td>
+                        <td>120&#8364;</td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>Biglietto Aereo</td>
+                        <td>120&#8364;</td>
+                    </tr>
+                    <tr>
+                        <td>Totale</td>
+                        <td></td>
+                        <td>360&#8364;</td>
+                    </tr>
+                </tbody> 
+            </table>
+            <!--/fine della tabella-->
+            <hr>
+
+        </section>
+        <!--/fine sezione Le mie spese-->
+       
+        <!--inizio sezione: Cose da fare-->
+        <section> 
         <h3><strong>Cose da fare</strong></h3>
 
         <!--elenco non ordinato-->
@@ -65,35 +77,58 @@
             <li>Mangiare il tipico Fish and Chips inglese &#10007</li>
         </ul>
         <hr>
-
+        </section>
+        <!--fine sezione cose da fare-->
+        
+        <!--Inizio sezione: Lista ordinata con sottolista non ordnata-->
+        <section>
         <h3>Info utili:</h3>
-        <!--Lista ordinata con sottolista non ordnata-->
+
+        <!--inizio lista ordinata-->
         <ol>
             <li>Numeri utili di emergenza</li>
+
+                <!--sottolista non ordinata di Numeri utili-->
                 <ul>
                     <li><strong>999</strong> - Emergenza</li>
                     <li><strong>101</strong> - Numero polizia</li>
                     <li><strong>111</strong> - Numero assistenza medica</li>
                 </ul>
-            <li>Hotel</li>
+            
+                <li>Hotel</li>
+
+                <!--sottolista non ordinata di Hotel-->
                 <ul>
                     <li><strong>Nome hotel</strong>: Buckingham Palace</li>
                     <li><strong>Indirizzo Hotel</strong>: Westminster, London SW1A 1AA, Regno Unito</li>
                 </ul>
-            <li>Aereo</li> 
+            
+                <li>Aereo</li> 
+                
+                <!--sottolista non ordinata di Aereo-->
                 <ul>
                     <li><strong>Volo di Andata</strong>:Y1234X ore 9:30 da Milano Malpensa</li>
                     <li><strong>Volo di Ritorno</strong>:Y1236X ore 18:30 da London Heathrow</li>
                 </ul>
         </ol>
+        <!--fine lista ordinata-->
+
         <hr>
+        </section>
+        <!--/fine sessione 3-->
+
+        <!--Inizione sezione: Le foto-->
+        <section>
+            <h3><strong>Le foto</strong></h3>
+                <img src="./Img/london-400x400-compressor_0.jpg" alt="il ponte con la cattedrale di San Paolo all'orizzonte">
+                <img src="./Img/evening-tower-bridge-and-river-thames-london_u-L-P2QVZJ0.jpg" alt="il ponte simbolo di londra al tramonto">
+        </section>
     </main>
 
     <!--piè di pagina-->
     <footer>
-        <h3><strong>Le foto</strong></h3>
-        <img src="./Img/london-400x400-compressor_0.jpg" alt="il ponte con la cattedrale di San Paolo all'orizzonte">
-        <img src="./Img/evening-tower-bridge-and-river-thames-london_u-L-P2QVZJ0.jpg" alt="il ponte simbolo di londra al tramonto">
+       <p>"Questa pagina HTML è creata per scopi didattici!!!"</p> 
     </footer>
 </body>
+
 </html>
